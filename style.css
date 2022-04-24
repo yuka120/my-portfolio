@@ -1,0 +1,102 @@
+header {
+  top: 10px;
+  left: 10px;
+  width: 100%;
+  padding: 20px 40px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ff5192;
+}
+
+.my-image {
+  padding: 20px 50px 20px 50px;
+}
+
+.me {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.name {
+  position: absolute;
+  left: 70px;
+  top: 500px;
+  font-size: 3;
+  width: 25%;
+  color: rgb(37, 37, 37);
+  border-bottom: 2px double rgb(37, 37, 37);
+}
+
+.englishName {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 2vw;
+  color: rgb(37, 37, 37);
+}
+
+.aboutme-title {
+  margin-left: 20px;
+}
+
+.aboutme-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.aboutme-property {
+  width: 33%;
+  margin-top: 4rem;
+}
+
+.aboutme-key {
+  border-bottom: 0.03rem solid rgb(112, 1, 1);
+  font-size: 2em;
+  color: #ff97c2;
+  margin-bottom: 1.5rem;
+  width: 80%;
+  margin-left: 1.7rem;
+}
+
+.aboutme-value {
+  font-size: 1.7em;
+  margin-bottom: 2rem;
+  margin-left: 6rem;
+}
+
+.foodcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.foodphoto {
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.like-title {
+  margin-left: 20px;
+}
+
+.intro {
+  text-align: center;
+}
+.endpart {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #ff5192;
+}
+.instagram {
+  display: flex;
+  justify-content: center;
+}
+.instalink {
+  text-align: center;
+  font-size: 1.2vw;
+  color: #fff;
+}
